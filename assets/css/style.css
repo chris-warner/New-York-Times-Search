@@ -1,0 +1,84 @@
+.flex-container {
+    margin: auto;
+    width: 980px;
+}
+
+.heading-text {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(23, 23, 131);
+    text-align: center;
+}
+
+.heading-text,
+.search-box,
+.top-articles,
+input,
+button {
+    border-radius: 5px;
+}
+
+.headingtextP {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.search-box,
+.top-articles {
+    border: 1px solid black;
+    margin-top: 5px;
+}
+
+form {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.section-head {
+    background-color: rgb(233, 225, 225);
+    padding: 5px 0px 5px 0px;
+    border-bottom: 1px solid black;
+}
+
+.subheading {
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+input {
+    width: 100%;
+    border: 1px solid black;
+}
+
+label {
+    margin-top: 15px;
+}
+
+button {
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.result {
+    /* height: 20px; */
+}
+
+
+/* Camilo Adds */
+
+.articuleLink:hover {
+    cursor: pointer;
+}
+
+.pCard {
+    padding: 0 10px 0 20px;
+}
+
+h3.pCard {
+    padding: 0 10px 0 10px;
+}
