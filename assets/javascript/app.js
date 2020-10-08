@@ -77,52 +77,7 @@ $(document).ready(function() {
                         </div>
                     </div>
                 </div>`);
-
-                // var headLine = response.response.docs[i].headline.main;
-                // var lead_paragraph = response.response.docs[i].lead_paragraph;
-                // var snippet = response.response.docs[i].snippet;
-                // var byline = response.response.docs[i].byline.original;
-                // var web_url = response.response.docs[i].web_url;
-
-                // var articuleDiv = $("<div>");
-                // articuleDiv.addClass("articuleDiv");
-
-                // var sectionHeadDiv = $("<div>");
-                // sectionHeadDiv.addClass("section-head");
-
-                // var leadP = $("<p>");
-                // leadP.addClass("subheading");
-
-                // var pText = $("<p>");
-                // pText.addClass("result");
-
-                // var pBy = $("<p>");
-                // pBy.addClass("result");
-
-                // var aLink = $("<a>");
-                // aLink.addClass("result articuleLink");
-                // aLink.attr("href", web_url);
-
-                // sectionHeadDiv.text(headLine);
-                // leadP.text(lead_paragraph);
-                // pText.text(snippet);
-                // pBy.text(byline);
-                // aLink.text(web_url);
-
-                // articuleDiv.append(sectionHeadDiv);
-                // articuleDiv.append(leadP);
-                // articuleDiv.append(pText);
-                // articuleDiv.append(pBy);
-                // articuleDiv.append(aLink);
-
-
-                // $(".result").append(articuleDiv);
-
-
-
             }
-
-
         });
     }
 });
